@@ -1,0 +1,207 @@
+/* MAGANA, Dylan G. */
+/* 02/13/2024 */
+
+
+/* Extra Small Devices (Phones): */
+@media only screen and (min-width: 320px) {
+    .header {
+        font-size: 10px;
+    }
+
+    .sunflower-grid {
+        width: 200px;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 70px;
+    
+        grid-template-columns: 75px 75px 75px;
+    }
+
+    .sunflower .head {
+        width: 70px;
+        height: 55px;
+    }
+
+    .sunflower .body {
+        width: 70px;
+        height: 70px;
+        background-color: transparent;
+        background-image: url('sprites/sunflower_body.png');
+        background-size: cover;
+        background-position: center;
+        border: none;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .tang {
+        margin-left: 15px;
+        width: 45px;
+        height: 50px;
+    }
+
+    .tangButton {
+        width: 35px;
+        height: 40px;
+    }
+
+    .messageBox {
+        width: 200px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+}
+
+
+/* Small Devices (Tablets): */
+@media only screen and (min-width: 576px) {
+    .header {
+        font-size: 15px;
+    }
+
+    .sunflower-grid {
+        width: 350px;
+        height: 350px;
+        margin-bottom: 10px;
+    
+        grid-template-columns: 75px 75px 75px;
+    }
+
+    .sunflower .head {
+        width: 85px;
+        height: 60px;
+    }
+
+    .sunflower .body {
+        width: 85px;
+        height: 85px;
+        background-color: transparent;
+        background-image: url('sprites/sunflower_body.png');
+        background-size: cover;
+        background-position: center;
+        border: none;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .tang {
+        margin-left: 15px;
+        width: 65px;
+        height: 70px;
+    }
+
+    .tangButton {
+        width: 50px;
+        height: 60px;
+    }
+
+    .messageBox {
+        width: 220px;
+        font-size: 13px;
+    }
+}
+
+
+/* Medium Devices (Laptops and Desktops): */
+@media only screen and (min-width: 768px) {
+    .header {
+        font-size: 17.5px;
+    }
+
+    .sunflower-grid {
+        width: 400px;
+        height: 400px;
+    
+        grid-template-columns: 100px 100px 100px;
+    }
+
+    .sunflower .head {
+        width: 100px;
+        height: 75px;
+    }
+
+    .sunflower .body {
+        width: 100px;
+        height: 100px;
+        background-color: transparent;
+        background-image: url('sprites/sunflower_body.png');
+        background-size: cover;
+        background-position: center;
+        border: none;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .tang {
+        margin-left: 15px;
+        width: 75px;
+        height: 85px;
+    }
+
+    .tangButton {
+        width: 60px;
+        height: 70px;
+    }
+
+    .messageBox {
+        width: 275px;
+        font-size: 15px;
+
+        line-height: 20px;
+    }
+}
+
+
+/* Large Devices (Large Desktops): */
+@media only screen and (min-width: 1600px) {
+    .header {
+        font-size: 21px;
+    }
+
+    .sunflower-grid {
+        width: 500px;
+        height: 500px;
+    
+        grid-template-columns: 100px 100px 100px;
+    }
+
+    .sunflower .head {
+        width: 125px;
+        height: 100px;
+    }
+
+    .sunflower .body {
+        width: 125px;
+        height: 125px;
+        background-color: transparent;
+        background-image: url('sprites/sunflower_body.png');
+        background-size: cover;
+        background-position: center;
+        border: none;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .tang {
+        margin-left: 20px;
+        width: 85px;
+        height: 95px;
+    }
+
+    .tangButton {
+        width: 70px;
+        height: 80px;
+    }
+
+    .messageBox {
+        width: 275px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+}
+
+
+/* MAGANA, Dylan G. */
+/* 02/13/2024 */
